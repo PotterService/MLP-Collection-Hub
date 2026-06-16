@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MLP Collection Hub | Potter Service</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELQSW0TEBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELQSW0TEBE', {
+    page_title: 'MLP Collection Hub',
+    page_path: '/mlp-collection-hub'
+  });
+
+  function trackEvent(eventName) {
+    if (typeof gtag === 'function') {
+      gtag('event', eventName);
+    }
+  }
+</script>
+</head>
+
+<body>
+<header class="hero">
+  <nav class="topbar">
+    <a href="https://potterservice.com" target="_blank" rel="noopener">PotterService.com</a>
+    <a href="https://mlptracker.potterservice.com" target="_blank" rel="noopener" onclick="trackEvent('hub_main_tracker_top_click')">MLP Tracker</a>
+    <a href="https://bp01.potterservice.com" target="_blank" rel="noopener" onclick="trackEvent('hub_bp01_top_click')">BP01 Tool</a>
+  </nav>
+
+  <div class="hero-content">
+    <p class="eyebrow">Potter Service Collector Projects</p>
+    <h1>MLP Collection Hub</h1>
+    <p class="subtitle">
+      A central home for Bow’s fan-made Kayou My Little Pony card collector tools, trackers, checklists, and standalone set projects.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn primary" href="https://mlptracker.potterservice.com" target="_blank" rel="noopener" onclick="trackEvent('hub_main_tracker_hero_click')">
+        Open Main Collection Tracker
+      </a>
+      <a class="btn secondary" href="https://bp01.potterservice.com" target="_blank" rel="noopener" onclick="trackEvent('hub_bp01_hero_click')">
+        Open BP01 Fantasy Wonderland
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="intro-card">
+    <h2>Collector Tools Directory</h2>
+    <p>
+      This site works like a middle hub between different MLP Kayou collector projects.
+      Each project has its own website, GitHub repository, description, and collector purpose.
+    </p>
+  </section>
+
+  <section class="project-grid">
+
+    <article class="project-card featured">
+      <div class="project-image">
+        <img src="https://static.wikitide.net/kayoumylittleponycardgamewiki/1/17/Bp01_box_en.webp" alt="BP01 Fantasy Wonderland box">
+      </div>
+
+      <div class="project-body">
+        <div class="project-label">Standalone Set Tool</div>
+        <h2>BP01 Fantasy Wonderland Collector</h2>
+
+        <p>
+          Standalone fan-made collector tool for the Kayou My Little Pony Card Game BP01 set.
+        </p>
+
+        <p>
+          Track BP01 cards, images, rarities, pull odds, owned cards, duplicates, wishlist cards, and binder progress.
+        </p>
+
+        <ul class="feature-list">
+          <li>BP01 card image gallery</li>
+          <li>Owned, wishlist, and duplicate tracking</li>
+          <li>Pull odds under each card</li>
+          <li>CSV export and JSON backup</li>
+          <li>Print-friendly binder view</li>
+        </ul>
+
+        <div class="button-row">
+          <a class="btn primary" href="https://bp01.potterservice.com" target="_blank" rel="noopener" onclick="trackEvent('hub_bp01_open_site_click')">
+            Visit BP01 Site
+          </a>
+
+          <a class="btn github" href="https://github.com/PotterService/BP01-Fantasy-Wonderland-Collector" target="_blank" rel="noopener" onclick="trackEvent('hub_bp01_github_click')">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-image tracker-art">
+        <div class="tracker-icon">MLP</div>
+        <div>
+          <strong>Kayou Collection Tracker</strong>
+          <span>All-set collection manager</span>
+        </div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-label">Main Collection Tracker</div>
+        <h2>MLP Kayou Collection Tracker</h2>
+
+        <p>
+          A fan-made collection manager for the Kayou My Little Pony Trading Card Game.
+        </p>
+
+        <p>
+          Track your collection, duplicates, wishlists, set completion, release years, and export checklists from a simple and easy-to-use interface.
+        </p>
+
+        <ul class="feature-list">
+          <li>Multi-set collection tracking</li>
+          <li>Duplicate and wishlist tools</li>
+          <li>Release year filtering</li>
+          <li>Checklist exports</li>
+          <li>Local backup and restore</li>
+        </ul>
+
+        <div class="button-row">
+          <a class="btn primary" href="https://mlptracker.potterservice.com" target="_blank" rel="noopener" onclick="trackEvent('hub_tracker_open_site_click')">
+            Visit Main Tracker
+          </a>
+
+          <a class="btn github" href="https://github.com/PotterService/MLP-TCG-Collection-Vault" target="_blank" rel="noopener" onclick="trackEvent('hub_tracker_github_click')">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card coming-soon">
+      <div class="project-image placeholder-art">
+        <div>+</div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-label">Future Project Slot</div>
+        <h2>More Set Tools Coming Later</h2>
+
+        <p>
+          This hub can be expanded with future standalone tools for other Kayou MLP sets.
+        </p>
+
+        <p>
+          Examples could include BP02, BP03, BP04, starter decks, promotional cards, or printable binder tools.
+        </p>
+
+        <ul class="feature-list">
+          <li>Standalone set trackers</li>
+          <li>Binder print tools</li>
+          <li>Rarity guides</li>
+          <li>Collector checklists</li>
+        </ul>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="about-section">
+    <h2>About This Hub</h2>
+    <p>
+      MLP Collection Hub was created by Bow as a central landing page for fan-made Kayou My Little Pony collector tools.
+      The goal is to make it easier for collectors to find the correct tool, open the live site, or view the source code on GitHub.
+    </p>
+
+    <p>
+      Most tools are designed to run locally in the browser and may use local storage for collection progress.
+      Export backups regularly so your collection data can be restored if browser data is cleared or if a site changes domains.
+    </p>
+  </section>
+
+  <section class="disclaimer">
+    <h2>Disclaimer</h2>
+    <p>
+      This is a fan-made collector hub. Bow and Potter Service are not affiliated with, sponsored by, endorsed by, or officially connected to Kayou, Hasbro, My Little Pony, Miraheze, or any trademark owner.
+      All trademarks, logos, card images, card names, and intellectual property belong to their respective owners.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <strong>MLP Collection Hub</strong>
+  <span>Designed by Bow • Potter Service Collector Projects</span>
+</footer>
+</body>
+</html>
